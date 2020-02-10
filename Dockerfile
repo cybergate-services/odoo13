@@ -2,7 +2,6 @@ FROM bitnami/odoo:12
 MAINTAINER Damith Dananjaya <damith@cybergate.lk>
 
 RUN mkdir -p /bitnami/odoo/addons-uploads
-RUN chown odoo /bitnami/odoo/addons-uploads
 RUN mkdir -p /packages
 RUN install_packages wget
 RUN wget https://downloads.wkhtmltopdf.org/0.12/0.12.5/wkhtmltox_0.12.5-1.stretch_amd64.deb -O /packages/wkhtmltox.deb
