@@ -1,4 +1,4 @@
-FROM bitnami/odoo:12
+FROM bitnami/odoo:13
 MAINTAINER Damith Dananjaya <damith@cybergate.lk>
 
 RUN mkdir -p /bitnami/odoo/addons-uploads
