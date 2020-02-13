@@ -1,2 +1,2 @@
-# odoo12
-Odoo12 based on bitnami odoo12 container
+# odoo13
+Odoo13 based on bitnami odoo13 container
