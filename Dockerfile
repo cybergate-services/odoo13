@@ -13,4 +13,6 @@ RUN install_packages  libfontenc1 libxfont2 xfonts-75dpi xfonts-base xfonts-enco
 RUN dpkg -i /packages/wkhtmltox.deb
 RUN install_packages python3-pypdf2
 RUN rm -rf /packages/wkhtmltox.deb
+RUN odoo_cybergate npm
+RUN npm install tslib
 
