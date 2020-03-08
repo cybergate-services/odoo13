@@ -15,4 +15,5 @@ RUN install_packages python3-pypdf2
 RUN rm -rf /packages/wkhtmltox.deb
 RUN install_packages npm
 RUN npm install tslib
+RUN pip3 install suds-jurko
 
